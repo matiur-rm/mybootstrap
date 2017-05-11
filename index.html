@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vehicle Management System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    
+    .row.content {height: 550px}
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+     footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    html,body{
+        height:100%;
+    }
+    
+    body{
+        background:#f1f1f1;
+    }
+    .sidenav,.main-content{
+        margin-top:-20px;
+    }
+    .main-content{
+        background: #fff;
+        
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Vehicle Management System</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    
+    
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs">
+      <h2><img src="images/Vehicle.jpg" class="img-rounded" alt="Cinque Terre" width="50" height="30">VMS</h2>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1"><span class="glyphicon glyphicon-dashboard"></span>  Dashboard</a></li>
+        <li><a href="#section3"><span class="glyphicon glyphicon-th-list"></span> Work Order</a></li>
+        <li><a href="#section3"><span class="glyphicon glyphicon-book"></span> Reminders</a></li>
+        <li><a href="#section3"><span class="glyphicon glyphicon-road"></span> Service History</a></li>
+        <li><a href="#section3"><span class="glyphicon glyphicon-bookmark"></span> Fuel</a></li>
+        <li><a href="#section3"><span class="glyphicon glyphicon-align-justify"></span> Vehicles</a></li>
+        <li><a href="#section3"><span class="glyphicon glyphicon-folder-open"></span> Parts & Inventory</a></li>
+        <li><a href="#section3"><span class="glyphicon glyphicon-tasks"></span> Reports</a></li>
+        <li><a href="#section3"><span class="glyphicon glyphicon-modal-window"></span> Settings</a></li>
+        
+      </ul><br>
+    </div>
+    
+    
+    <div class="col-sm-9 main-content">
+      <div class="well">
+        <h4>Dashboard</h4>
+        <p>Some text..</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>User Guide</h4>
+            <p><span class="glyphicon glyphicon-user"></span></p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Vehicles</h4>
+            <p><span class="glyphicon glyphicon-modal-window"></span></p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Fuel Cost</h4>
+            <p><span class="glyphicon glyphicon-oil"></span></p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Service Cost</h4>
+            <p><span class="glyphicon glyphicon-calendar"></span></p>
+          </div>
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Report</h4>
+            <p><span class="glyphicon glyphicon-blackboard"></span></p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Company</h4>
+            <p><span class="glyphicon  glyphicon-subtitles"></span></p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Station</h4>
+            <p><span class="glyphicon glyphicon-compressed"></span></p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Alert</h4>
+            <p><span class="glyphicon glyphicon-copy"></span></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p> 
+            <p>Text</p> 
+            <p>Text</p> 
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p> 
+            <p>Text</p> 
+            <p>Text</p> 
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <p>Text</p> 
+            <p>Text</p> 
+            <p>Text</p> 
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
